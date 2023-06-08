@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>978</width>
+    <width>976</width>
     <height>610</height>
    </rect>
   </property>
@@ -282,9 +282,9 @@
              <number>0</number>
             </property>
             <item>
-             <widget class="QPushButton" name="pushButton_11">
+             <widget class="QCheckBox" name="checkBox">
               <property name="text">
-               <string>Mode auto ON/OFF</string>
+               <string>Mode Auto</string>
               </property>
              </widget>
             </item>
@@ -450,7 +450,7 @@
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="QPushButton" name="pushButton_2">
+                 <widget class="QPushButton" name="pushButtonMoveUp">
                   <property name="text">
                    <string>UP</string>
                   </property>
@@ -514,7 +514,7 @@
               <item>
                <layout class="QHBoxLayout" name="horizontalLayout_21">
                 <item>
-                 <widget class="QPushButton" name="pushButton_6">
+                 <widget class="QPushButton" name="pushButtonMoveDown">
                   <property name="text">
                    <string>DOWN</string>
                   </property>
@@ -564,7 +564,7 @@
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="QPushButton" name="pushButton_4">
+                 <widget class="QPushButton" name="pushButtonMoveLeft">
                   <property name="text">
                    <string>LEFT</string>
                   </property>
@@ -595,7 +595,7 @@
               <item>
                <layout class="QHBoxLayout" name="horizontalLayout_15">
                 <item>
-                 <widget class="QPushButton" name="pushButton_5">
+                 <widget class="QPushButton" name="pushButtonMoveRight">
                   <property name="text">
                    <string>RIGHT</string>
                   </property>
@@ -623,7 +623,7 @@
           <item>
            <layout class="QVBoxLayout" name="verticalLayout_7">
             <item>
-             <widget class="QPushButton" name="pushButton_3">
+             <widget class="QPushButton" name="pushButtonShoot">
               <property name="text">
                <string>SHOOT</string>
               </property>
@@ -711,7 +711,7 @@
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="QPushButton" name="pushButton_7">
+                 <widget class="QPushButton" name="pushButtonUp">
                   <property name="text">
                    <string>↑</string>
                   </property>
@@ -758,7 +758,7 @@
               <item>
                <layout class="QHBoxLayout" name="horizontalLayout_30">
                 <item>
-                 <widget class="QPushButton" name="pushButton_8">
+                 <widget class="QPushButton" name="pushButtonLeft">
                   <property name="text">
                    <string>←</string>
                   </property>
@@ -789,7 +789,7 @@
               <item>
                <layout class="QHBoxLayout" name="horizontalLayout_29">
                 <item>
-                 <widget class="QPushButton" name="pushButton_9">
+                 <widget class="QPushButton" name="pushButtonRight">
                   <property name="text">
                    <string>→</string>
                   </property>
@@ -836,7 +836,7 @@
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="QPushButton" name="pushButton_10">
+                 <widget class="QPushButton" name="pushButtonDown">
                   <property name="text">
                    <string>↓</string>
                   </property>
@@ -881,7 +881,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>978</width>
+     <width>976</width>
      <height>26</height>
     </rect>
    </property>
@@ -957,6 +957,150 @@
     <hint type="destinationlabel">
      <x>476</x>
      <y>282</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMoveUp</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>moveUp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>153</x>
+     <y>411</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>304</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMoveDown</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>moveDown()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>153</x>
+     <y>529</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>304</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMoveLeft</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>moveLeft()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>304</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonMoveRight</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>moveRight()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>227</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>304</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonUp</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>rotationUp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>817</x>
+     <y>414</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>304</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonDown</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>rotationDown()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>817</x>
+     <y>527</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>304</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonLeft</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>rotationLeft()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>742</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>304</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRight</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>rotationRight()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>891</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>304</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonShoot</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>shoot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>483</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>304</y>
     </hint>
    </hints>
   </connection>
