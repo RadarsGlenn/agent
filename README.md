@@ -8,15 +8,15 @@ Le code fourni est une application qui crée un agent pour interagir avec une ar
 
 En tant qu'utilisateur :
 
-    - configurer le nom de l'agent, l'arène et le mot de passe.
+- configurer le nom de l'agent, l'arène et le mot de passe.
 
-    - démarrer l'agent dans l'arène en appuyant sur un bouton.
+- démarrer l'agent dans l'arène en appuyant sur un bouton.
 
-    - contrôler l'agent en utilisant les touches du clavier pour le déplacer, le faire tourner et tirer.
+- contrôler l'agent en utilisant les touches du clavier pour le déplacer, le faire tourner et tirer.
 
-    - activer et désactiver le mode automatique de l'agent.
-    
-    - voir l'état de l'agent, tel que la vie et les munitions, dans l'interface utilisateur.
+- activer et désactiver le mode automatique de l'agent.
+
+- voir l'état de l'agent, tel que la vie et les munitions, dans l'interface utilisateur.
 
 *lien maquette* : https://xd.adobe.com/view/afef074a-8dee-4d20-9e0b-67b65c75bf51-fabc/
 
