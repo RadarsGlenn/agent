@@ -2,11 +2,11 @@
 
 *thème 🛸 GOLDORAK 🛸*
 
-🕹 ***Résumé et Contexte*** 🕹 
+## 🕹 ***Résumé et Contexte*** 🕹 
 
 Le code fourni est une application qui crée un agent pour interagir avec une arène virtuelle. L'agent peut se déplacer, tourner, tirer et effectuer d'autres actions dans l'arène. L'interface utilisateur permet de configurer les paramètres de l'agent, tels que le nom, l'arène et le mot de passe. L'agent communique avec un serveur MQTT à l'adresse "mqtt.jusdeliens.com" pour envoyer et recevoir des informations.
 
-👤 ***User stories*** 👤
+## 👤 ***User stories*** 👤
 
 En tant qu'utilisateur :
 
@@ -22,19 +22,19 @@ En tant qu'utilisateur :
 
 *lien maquette* : https://xd.adobe.com/view/afef074a-8dee-4d20-9e0b-67b65c75bf51-fabc/
 
-📊 ***Diagramme FSM mermaid*** 📊
+## 📊 ***Diagramme FSM mermaid*** 📊
 
 [![](https://mermaid.ink/img/pako:eNqVkktuwjAQhq9izbJKEMSQ16Kr3qC7NlU1IgNYTezUj6gUcZcuyzm4WE2gPEslLFm27P__ZvzLCxirkiAHY9HSg8Cpxjpso0IyP57vXlgY3jNqsXJohZIsZ-8OZcm0k1vN0V0n9ZxXTeMZaT-93AiGbuwkIympFn5hrbtubZTTxgm7s-5MQtr1SpMxKO0_hMmF0WrVsMaJS-dpnxevPCDOTYcO9023JKqK9tnglDbFjGWotWjXK7b-YhWykrQU629NrFFGdIW2NegIv2Ndy7IhbZQ3dfiTvs6NNyZ5hrghyslfYUAANekaRek_12IjLMDOqKYCcr8tUb8VUMil16Gz6nEux5Bb7SgA15SHv_h72KCEfAEfkPO0x0dJ2u8P0oRHPBvGAcwhD9NBj8c8iVIeJX6TLQP4VMoDBr1-lAwzPsrifhJn8Yh3uKfucoKVoeUPSsAFng?type=png)](https://mermaid.live/edit#pako:eNqVkktuwjAQhq9izbJKEMSQ16Kr3qC7NlU1IgNYTezUj6gUcZcuyzm4WE2gPEslLFm27P__ZvzLCxirkiAHY9HSg8Cpxjpso0IyP57vXlgY3jNqsXJohZIsZ-8OZcm0k1vN0V0n9ZxXTeMZaT-93AiGbuwkIympFn5hrbtubZTTxgm7s-5MQtr1SpMxKO0_hMmF0WrVsMaJS-dpnxevPCDOTYcO9023JKqK9tnglDbFjGWotWjXK7b-YhWykrQU629NrFFGdIW2NegIv2Ndy7IhbZQ3dfiTvs6NNyZ5hrghyslfYUAANekaRek_12IjLMDOqKYCcr8tUb8VUMil16Gz6nEux5Bb7SgA15SHv_h72KCEfAEfkPO0x0dJ2u8P0oRHPBvGAcwhD9NBj8c8iVIeJX6TLQP4VMoDBr1-lAwzPsrifhJn8Yh3uKfucoKVoeUPSsAFng)
 
 
-🔗 ***Prérequis et dépendances*** 🔗
+## 🔗 ***Prérequis et dépendances*** 🔗
 
 Le code utilise le module j2l.pytactx.agent pour créer et gérer l'agent.
 Le code utilise le module automatique pour les fonctionnalités automatiques de l'agent.
 Le code nécessite l'installation de PyQt5 pour l'interface utilisateur.
 Le code nécessite une connexion Internet pour communiquer avec le serveur MQTT à l'adresse "mqtt.jusdeliens.com".
 
-📥 ***Installation*** 📥
+## 📥 ***Installation*** 📥
 
 - Visual Studio Code
 
@@ -42,7 +42,7 @@ Le code nécessite une connexion Internet pour communiquer avec le serveur MQTT 
 
 - pip install pyqt5
 
-💻 ***Utilisation*** 💻
+## 💻 ***Utilisation*** 💻
 
 Exécutez le code à l'aide de Python.
 Remplissez les champs "Nom", "Arène" et "Mot de passe" dans l'interface utilisateur.
@@ -51,7 +51,7 @@ Utilisez les touches du clavier pour contrôler les mouvements de l'agent, la ro
 Cochez la case "Mode automatique" pour activer le mode automatique de l'agent.
 L'état de l'agent est affiché dans l'interface utilisateur, y compris la vie et les munitions.
 
-🪪 ***Authentification*** 🪪
+## 🪪 ***Authentification*** 🪪
 
 L'authentification de l'agent se fait en fournissant un nom, une arène et un mot de passe dans l'interface utilisateur. Ces informations sont utilisées pour créer un agent avec les paramètres spécifiés et se connecter au serveur MQTT.
 
