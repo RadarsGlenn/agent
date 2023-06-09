@@ -1,7 +1,5 @@
 # Thèmes 🛸 GOLDORAK 🛸
 
-*lien maquette* : https://xd.adobe.com/view/afef074a-8dee-4d20-9e0b-67b65c75bf51-fabc/
-
 📜 ***Résumé*** 📜
 
 Combat de robot dans une arène, où chacun à un nombre de vie et munitions limités.
@@ -18,13 +16,15 @@ En tant qu'utilisateur, je veux pouvoir contrôler l'agent en utilisant les touc
 En tant qu'utilisateur, je veux pouvoir activer et désactiver le mode automatique de l'agent.
 En tant qu'utilisateur, je veux pouvoir voir l'état de l'agent, tel que la vie et les munitions, dans l'interface utilisateur.
 
+*lien maquette* : https://xd.adobe.com/view/afef074a-8dee-4d20-9e0b-67b65c75bf51-fabc/
+
 📊 ***Diagramme FSM mermaid*** 📊
 
-graph TD
+```graph TD
 A[Initial] --> B[Agent Configuration]
 B --> C[Agent Running]
 C --> D[Agent Stopped]
-D --> C
+D --> C```
 
 🔗 ***Prérequis et dépendances*** 🔗
 
@@ -35,6 +35,8 @@ Le code nécessite une connexion Internet pour communiquer avec le serveur MQTT 
 
 📥 ***Installation*** 📥
 
+Visual Studio Code
+Qt Designer
 pip install pyqt5
 
 💻 ***Utilisation*** 💻
@@ -46,7 +48,7 @@ Utilisez les touches du clavier pour contrôler les mouvements de l'agent, la ro
 Cochez la case "Mode automatique" pour activer le mode automatique de l'agent.
 L'état de l'agent est affiché dans l'interface utilisateur, y compris la vie et les munitions.
 
-🪪 ***Autantification*** 🪪
+🪪 ***Authentification*** 🪪
 
 L'authentification de l'agent se fait en fournissant un nom, une arène et un mot de passe dans l'interface utilisateur. Ces informations sont utilisées pour créer un agent avec les paramètres spécifiés et se connecter au serveur MQTT.
 
