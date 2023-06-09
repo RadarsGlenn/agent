@@ -78,4 +78,11 @@ L'authentification de l'agent se fait en fournissant un nom, une arène et un mo
                        ╚════╝ ╚══════╝╚══════╝ 
 
 Designed with 💖 by Jusdeliens  
+Under CC BY-NC-ND 3.0 licence  
 https://creativecommons.org/licenses/by-nc-nd/3.0/   
+
+
+**Created by Yami**
+
+Under CC BY-NC-ND 3.0 licence 
+
