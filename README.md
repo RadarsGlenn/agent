@@ -1,4 +1,6 @@
-# Thème 🛸 GOLDORAK 🛸
+# Application en python sur un robot 
+
+*thème 🛸 GOLDORAK 🛸*
 
 🕹 ***Résumé et Contexte*** 🕹 
 
@@ -34,11 +36,11 @@ Le code nécessite une connexion Internet pour communiquer avec le serveur MQTT 
 
 📥 ***Installation*** 📥
 
-Visual Studio Code
+- Visual Studio Code
 
-Qt Designer
+- Qt Designer
 
-pip install pyqt5
+- pip install pyqt5
 
 💻 ***Utilisation*** 💻
 
