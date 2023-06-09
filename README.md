@@ -1,4 +1,4 @@
-# Application en python sur un robot 
+# Application desktop python de pilotage d'un robot 
 
 *thème 🛸 GOLDORAK 🛸*
 
@@ -53,6 +53,8 @@ Le code nécessite une connexion Internet pour communiquer avec le serveur MQTT 
 
 - pip install pyqt5-tools
 
+- j2l : un module personnalisée spécifique au projet pour interagir avec le serveur distant et contrôler l'agent dans l'arène virtuelle.
+
 ## 💻 ***Utilisation*** 💻
 
 Exécutez le code à l'aide de Python.  
@@ -66,5 +68,14 @@ L'état de l'agent est affiché dans l'interface utilisateur, y compris la vie e
 
 L'authentification de l'agent se fait en fournissant un nom, une arène et un mot de passe dans l'interface utilisateur. Ces informations sont utilisées pour créer un agent avec les paramètres spécifiés et se connecter au serveur MQTT.
 
+## 🏷 ***License*** 🏷
 
+#                           ██╗██████╗ ██╗           
+#                           ██║╚════██╗██║           
+#                           ██║ █████╔╝██║           
+#                      ██   ██║██╔═══╝ ██║           
+#                      ╚█████╔╝███████╗███████╗      
+#                       ╚════╝ ╚══════╝╚══════╝ 
 
+Designed with 💖 by Jusdeliens  
+https://creativecommons.org/licenses/by-nc-nd/3.0/   
