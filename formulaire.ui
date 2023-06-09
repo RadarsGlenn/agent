@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>976</width>
-    <height>610</height>
+    <height>643</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,7 +18,7 @@
     <item>
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab_5">
        <attribute name="title">
@@ -248,14 +248,14 @@
              </widget>
             </item>
             <item>
-             <widget class="QProgressBar" name="progressBar">
+             <widget class="QProgressBar" name="vie">
               <property name="value">
                <number>24</number>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QProgressBar" name="progressBar_2">
+             <widget class="QProgressBar" name="munitions">
               <property name="value">
                <number>24</number>
               </property>
@@ -1104,6 +1104,22 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>checkBox</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>modeAuto(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>626</x>
+     <y>117</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>487</x>
+     <y>321</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>onTextChange(QString)</slot>
@@ -1111,7 +1127,7 @@
   <slot>onAreneChange(QString)</slot>
   <slot>onMdpChange(QString)</slot>
   <slot>onButtonClick()</slot>
-  <slot>modeAuto()</slot>
+  <slot>modeAuto(bool)</slot>
   <slot>rotationUp()</slot>
   <slot>rotationRight()</slot>
   <slot>rotationLeft()</slot>
