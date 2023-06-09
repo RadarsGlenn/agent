@@ -171,16 +171,14 @@ class MainWindow(QtWidgets.QMainWindow):
                 automatique.actualiserAgent()
             agent.actualiser()
             # MAJ de la ui selon l'état du robot
-            """
-            if agent.vie > self.ui.lifeBar.maximum():
-                self.ui.lifeBar.setMaximum(agent.vie)
-            self.ui.lifeBar.setValue(agent.vie)
-            if agent.vie > self.ui.ammoBar.maximum():
-                self.ui.ammoBar.setMaximum(agent.munitions)
-            self.ui.ammoBar.setValue(agent.munitions)
-            self.ui.pseudolabel.setText(self.pseudo)
-            self.ui.areneLabel.setText(self.arena)
-            """
+            
+            if agent.vie > self.ui.vie.maximum():
+                self.ui.vie.setMaximum(agent.vie)
+            self.ui.vie.setValue(agent.vie)
+            if agent.vie > self.ui.munitions.maximum():
+                self.ui.munitions.setMaximum(agent.munitions)
+            self.ui.munitions.setValue(agent.munitions)
+            
 
 app = QtWidgets.QApplication(sys.argv)
 window = MainWindow()
