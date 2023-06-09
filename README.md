@@ -24,7 +24,8 @@ En tant qu'utilisateur, je veux pouvoir voir l'état de l'agent, tel que la vie 
 A[Initial] --> B[Agent Configuration]
 B --> C[Agent Running]
 C --> D[Agent Stopped]
-D --> C```
+D --> C
+```
 
 🔗 ***Prérequis et dépendances*** 🔗
 
