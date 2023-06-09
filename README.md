@@ -1,31 +1,24 @@
-# Thèmes 🛸 GOLDORAK 🛸
+# Thème 🛸 GOLDORAK 🛸
 
-📜 ***Résumé*** 📜
-
-Combat de robot dans une arène, où chacun à un nombre de vie et munitions limités.
-
-🕹 ***Contexte*** 🕹 
+🕹 ***Résumé et Contexte*** 🕹 
 
 Le code fourni est une application qui crée un agent pour interagir avec une arène virtuelle. L'agent peut se déplacer, tourner, tirer et effectuer d'autres actions dans l'arène. L'interface utilisateur permet de configurer les paramètres de l'agent, tels que le nom, l'arène et le mot de passe. L'agent communique avec un serveur MQTT à l'adresse "mqtt.jusdeliens.com" pour envoyer et recevoir des informations.
 
 👤 ***User stories*** 👤
 
-En tant qu'utilisateur, je veux pouvoir configurer le nom de l'agent, l'arène et le mot de passe.
-En tant qu'utilisateur, je veux pouvoir démarrer l'agent dans l'arène en appuyant sur un bouton.
-En tant qu'utilisateur, je veux pouvoir contrôler l'agent en utilisant les touches du clavier pour le déplacer, le faire tourner et tirer.
-En tant qu'utilisateur, je veux pouvoir activer et désactiver le mode automatique de l'agent.
-En tant qu'utilisateur, je veux pouvoir voir l'état de l'agent, tel que la vie et les munitions, dans l'interface utilisateur.
+En tant qu'utilisateur :
+    - configurer le nom de l'agent, l'arène et le mot de passe.
+    - démarrer l'agent dans l'arène en appuyant sur un bouton.
+    - contrôler l'agent en utilisant les touches du clavier pour le déplacer, le faire tourner et tirer.
+    - activer et désactiver le mode automatique de l'agent.
+    - voir l'état de l'agent, tel que la vie et les munitions, dans l'interface utilisateur.
 
 *lien maquette* : https://xd.adobe.com/view/afef074a-8dee-4d20-9e0b-67b65c75bf51-fabc/
 
 📊 ***Diagramme FSM mermaid*** 📊
 
-```graph TD
-A[Initial] --> B[Agent Configuration]
-B --> C[Agent Running]
-C --> D[Agent Stopped]
-D --> C
-```
+(https://mermaid.ink/img/pako:eNqVkktuwjAQhq9izbJKEMSQ16Kr3qC7NlU1IgNYTezUj6gUcZcuyzm4WE2gPEslLFm27P__ZvzLCxirkiAHY9HSg8Cpxjpso0IyP57vXlgY3jNqsXJohZIsZ-8OZcm0k1vN0V0n9ZxXTeMZaT-93AiGbuwkIympFn5hrbtubZTTxgm7s-5MQtr1SpMxKO0_hMmF0WrVsMaJS-dpnxevPCDOTYcO9023JKqK9tnglDbFjGWotWjXK7b-YhWykrQU629NrFFGdIW2NegIv2Ndy7IhbZQ3dfiTvs6NNyZ5hrghyslfYUAANekaRek_12IjLMDOqKYCcr8tUb8VUMil16Gz6nEux5Bb7SgA15SHv_h72KCEfAEfkPO0x0dJ2u8P0oRHPBvGAcwhD9NBj8c8iVIeJX6TLQP4VMoDBr1-lAwzPsrifhJn8Yh3uKfucoKVoeUPSsAFng?type=png)]
+
 
 🔗 ***Prérequis et dépendances*** 🔗
 
@@ -37,7 +30,9 @@ Le code nécessite une connexion Internet pour communiquer avec le serveur MQTT 
 📥 ***Installation*** 📥
 
 Visual Studio Code
+
 Qt Designer
+
 pip install pyqt5
 
 💻 ***Utilisation*** 💻
