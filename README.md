@@ -36,20 +36,31 @@ Le code nécessite une connexion Internet pour communiquer avec le serveur MQTT 
 
 ## 📥 ***Installation*** 📥
 
+**utilisateur**
+
+- De quoi exécuter du python (version 3)
+
+
+**Personne souhaitant reprendre le projet**
+
+- python version 3
+
 - Visual Studio Code
 
-- Qt Designer
+- Qt Designer (Pyqt5)
 
 - pip install pyqt5
 
+- pip install pyqt5-tools
+
 ## 💻 ***Utilisation*** 💻
 
-Exécutez le code à l'aide de Python.
-Remplissez les champs "Nom", "Arène" et "Mot de passe" dans l'interface utilisateur.
-Appuyez sur le bouton de démarrage pour créer l'agent et le lancer dans l'arène.
-Utilisez les touches du clavier pour contrôler les mouvements de l'agent, la rotation et le tir.
-Cochez la case "Mode automatique" pour activer le mode automatique de l'agent.
-L'état de l'agent est affiché dans l'interface utilisateur, y compris la vie et les munitions.
+Exécutez le code à l'aide de Python.  
+Remplissez les champs "Nom", "Arène" et "Mot de passe" dans l'interface utilisateur.  
+Appuyez sur le bouton de démarrage pour créer l'agent et le lancer dans l'arène.  
+Utilisez les touches du clavier pour contrôler les mouvements de l'agent, la rotation et le tir.  
+Cochez la case "Mode automatique" pour activer le mode automatique de l'agent.  
+L'état de l'agent est affiché dans l'interface utilisateur, y compris la vie et les munitions.  
 
 ## 🪪 ***Authentification*** 🪪
 
