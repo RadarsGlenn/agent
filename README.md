@@ -29,10 +29,10 @@ En tant qu'utilisateur :
 
 ## 🔗 ***Prérequis et dépendances*** 🔗
 
-Le code utilise le module j2l.pytactx.agent pour créer et gérer l'agent.
-Le code utilise le module automatique pour les fonctionnalités automatiques de l'agent.
-Le code nécessite l'installation de PyQt5 pour l'interface utilisateur.
-Le code nécessite une connexion Internet pour communiquer avec le serveur MQTT à l'adresse "mqtt.jusdeliens.com".
+Le code utilise le module j2l.pytactx.agent pour créer et gérer l'agent.  
+Le code utilise le module automatique pour les fonctionnalités automatiques de l'agent.  
+Le code nécessite l'installation de PyQt5 pour l'interface utilisateur.  
+Le code nécessite une connexion Internet pour communiquer avec le serveur MQTT à l'adresse "mqtt.jusdeliens.com".  
 
 ## 📥 ***Installation*** 📥
 
