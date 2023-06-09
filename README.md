@@ -52,10 +52,3 @@ L'authentification de l'agent se fait en fournissant un nom, une arène et un mo
 
 
 
-
-
-
-Son de l'apparition : Goldorak Go + musique qui va avec
-Son de tir : Cornofulgure
-Son de coup au corps à corps : Fulguropoing
-Son de déplacement : 
